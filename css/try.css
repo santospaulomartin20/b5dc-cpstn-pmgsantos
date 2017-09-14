@@ -119,13 +119,38 @@ h4 > a {
 	background-image: url("../images/bgcont1.jpg");
 	background-size: 100% 100%;
 }
+.bmoo {
+	background-color: black;
+}
 .cont2 {
 	height: 100vh;
 	width: 100%;
 }
+#logo {
+	/*font-size: 15px !important;*/
+	font-family: saturday-nights, bold;
+}
+a#logo:hover {
+	text-decoration: none!important;
+	color: black !important;
+	text-shadow: 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white;
+	
+}
+#logo:-webkit-any-link {
+	color: white !important;
+	text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+
+}
 .mycont4 {
-	height: 100vh;
+	height: 100%;
 	width: 100%;
+	background-color: black;
+}
+.well.media {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .well.media > h3,h4 {
 	font-family: 'Fascinate';
@@ -133,13 +158,14 @@ h4 > a {
 textarea.form-control {
 	resize: none !important;
 }
-.well{
+.well, .panel-footer{
 	background-color: transparent !important;
 	border-radius: 0;
 	box-shadow: none !important;
 	border : none; 
 	background-image: none;
 	padding-top: 0;
+	width: 100%;
 }
 .media-body > h1,
 .panel-heading > h1 {
@@ -383,10 +409,19 @@ img[alt=avaht2] {
 }
 .myrowh3 {
 	height: 100%;
+	margin-bottom: 20px;
 }
 .btn.btn-primary {
 	border-radius: 0 !important; 
 }
+div.well {
+	padding-left: 0;
+	padding-right: 0;
+}
+.btn-md {
+	border-radius: 0;
+}
+
 @media screen and (max-width: 767px) {
 	.jumbotron > h1 {
 		padding-top: 40px;
@@ -442,6 +477,13 @@ img[alt=avaht2] {
 	}
 	.mycont4 {
 		overflow: auto;
+	}
+	.media-body > p {
+		text-align: justify;
+		font-size: 10px;
+	}
+	.media-body > h1 {
+		text-align: center;
 	}
 }
 @media screen and (min-width: 768px) {

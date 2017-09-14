@@ -19,7 +19,6 @@ $(window).hover(function() {
 	if ($(window).scrollTop()) {
 	$('h1').removeClass('animated rubberBand');
 	} else {
-		
 	}
 });
 $('#hello').hover(function() {
